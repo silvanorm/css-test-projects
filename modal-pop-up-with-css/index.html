@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modal (Pop up) With HTML, CSS and JavaScript</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <button class="show-modal">Log In</button>
+
+    <div class="modal hidden">
+      <button class="close-modal">&times;</button>
+
+      <h1>Welcome back, friend😍</h1>
+
+      <form action="">
+        <input type="email" placeholder="Email" />
+        <input type="password" placeholder="Password" />
+        <button type="submit">Log in</button>
+        <p>Don't have an account?<a href="">Sign up</a></p>
+      </form>
+    </div>
+
+    <div class="overlay hidden"></div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
